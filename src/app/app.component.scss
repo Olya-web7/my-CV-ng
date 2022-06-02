@@ -8,6 +8,10 @@ h1 {
 button {
   background-color: #5e63b6;
   margin: 5px;
+
+  &:hover {
+    background-color: #f5c7f7;
+  }
 }
 
 .container {
