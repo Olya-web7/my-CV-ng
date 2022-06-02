@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  margin: 15px;
+  @media (max-width: 767px) {
+    flex-direction: column;
+  }
+}
+
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-size: cover;
+}
+
+mat-card {
+  margin: 10px;
+}
+
+.card {
+  background-color: #5e63b6;
+}
