@@ -1,6 +1,8 @@
 .wrapper {
     margin: 10px;
     background-image: url('https://images.unsplash.com/photo-1538032103457-2d54dc211025?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .contacts {
@@ -27,15 +29,16 @@
 }
 
 .skills_title, .projects_title {
-    text-align: center;
-    margin-top: 2em;
-    font-weight: 500;
-    font-size: 2em;
-    color:aqua;
+  text-align: center;
+  margin-top: 2em;
+  font-weight: 500;
+  font-size: 2em;
+  color:aqua;
 }
 
 .skills__groups {
   display: flex;  
+  justify-content: center;
     @media (max-width: 767px) {
         flex-direction: column;
     }
@@ -43,6 +46,7 @@
 
 .cards {
   display: flex;
+  justify-content: center;
   @media (max-width: 767px) {
     flex-direction: column;
   }
@@ -60,5 +64,5 @@
 
   &:hover {
     color: rgb(79, 166, 224);
-}
+  }
 }
