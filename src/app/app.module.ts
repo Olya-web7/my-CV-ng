@@ -7,6 +7,10 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { EducationComponent } from './education/education.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { WorkComponent } from './work/work.component';
+import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
+import {MatButtonModule} from '@angular/material/button';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { WorkComponent } from './work/work.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule,
+    MatIconModule,
+    MatCardModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
