@@ -1,6 +1,7 @@
 .wrapper {
   margin: 10px;
-  background-color: #414141;
+  background-color: #27296d;
+  border-radius: 4px;
 }
 
 .contacts {
@@ -16,11 +17,11 @@
 
     &_item a {
     text-decoration: none;
-    color: aqua;
+    color: #5e63b6;
 
       &:hover {
         opacity: 0.7;
-        color: rgb(79, 166, 224);
+        color: #a393eb;
       }
     }
   }
@@ -31,7 +32,7 @@
   margin-top: 2em;
   font-weight: 500;
   font-size: 2em;
-  color:aqua;
+  color:#5e63b6;
 }
 
 .skills__groups {
@@ -52,6 +53,7 @@
 
 .mat-card {
   margin: 1em;
+  background-color: #a393eb;
 }
 
 .mat-card-title a {
