@@ -46,16 +46,12 @@
 }
 
 .mat-card-title a {
-    text-decoration: none;
-    color: #000;
-    font-style: italic;
-    font-size: 0.7em;
-  
-    &:hover {
-      color: rgb(79, 166, 224);
-    }
-  }
+  text-decoration: none;
+  color: #000;
+  font-style: italic;
+  font-size: 0.7em;
 
-.project {}
-.project__tech {}
-.skills__list {}
+  &:hover {
+    color: rgb(79, 166, 224);
+}
+}
