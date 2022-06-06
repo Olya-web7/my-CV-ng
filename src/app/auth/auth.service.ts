@@ -8,7 +8,11 @@ export class AuthService {
 
   constructor(private http: HttpClient) { }
 
-  postAuth(user: any) {
-    return this.http.post('https://dtapi.if.ua/api/', user);
+  login(username:string, password:string) {
+    return this.http.post('https://dtapi.if.ua/api/', {username, password});
   }
+
+  private setSession(authResult: any) {
+    localStorage.setItem('id_token', authResult.idToken);
+  }  
 }

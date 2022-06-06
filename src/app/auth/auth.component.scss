@@ -1,79 +1,21 @@
 .wrapper {
-  margin: 10px;
+  margin: 50px;
   background-color: #27296d;
   border-radius: 4px;
 }
-
-.contacts {
-  margin-top: 15px;
-
-  &__list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  cursor: pointer;
-  padding: 0;
-
-    &_item a {
-    text-decoration: none;
-    color: #5e63b6;
-
-      &:hover {
-        opacity: 0.7;
-        color: #a393eb;
-      }
-    }
-  }
-}
-
-.about_text {
-  text-align: center;
-  font-size: 1.2em;
-  color: #a393eb;
-  font-style: italic;
-}
-
-.skills_title, .projects_title {
-  text-align: center;
-  margin-top: 2em;
-  font-weight: 500;
-  font-size: 2em;
-  color:#5e63b6;
-}
-
-.skills__groups {
-  display: flex;  
-  justify-content: center;
-    @media (max-width: 767px) {
-        flex-direction: column;
-    }
-  }
-
-.cards {
-  display: flex;
-  justify-content: center;
-  @media (max-width: 767px) {
-    flex-direction: column;
-  }
-}
-
 .mat-card {
   margin: 1em;
   background-color: #a393eb;
+  display: flex;
+  justify-content: center;
 }
 
-.mat-card-title a {
-  text-decoration: none;
-  color: #000;
-  font-style: italic;
-  font-size: 0.7em;
-
-  &:hover {
-    color: #5e63b6;
-  }
+form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
-.project__tech {
-  text-decoration: none;
+button {
+  margin-top: 10px;
 }
